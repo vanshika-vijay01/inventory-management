@@ -1,0 +1,35 @@
+@media (max-width:768px) {
+    #sideMenu_btn{
+        display: block;
+    }
+    .dash-header .header-left{
+        gap: 10px;
+    }
+    .dash-header .header-left .user_intro{
+        display: none;
+    }
+    .main-sidebar{
+        left: -250px;
+    }
+    .dash-header{
+        padding-left: 0;
+    }
+    .sidebar_open .main-sidebar {
+        left: 0;
+    }
+    .sidebar_open .dash-header{
+        padding-left: 250px;
+        transition: 0.3s all ease;
+    }
+    .main-content{
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+    .card-main{
+        margin-bottom: 30px;
+    }
+    .card-inner{
+        height: 230px;
+    }
+}
