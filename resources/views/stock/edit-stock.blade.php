@@ -49,9 +49,9 @@
                         <div class="d-flex">
                             <input class="w-75 me-3" type="text" name="sub_unit_name" placeholder="Enter Sub Unit" id="subUnitName" 
                                 value="{{ old('sub_unit_name', $stock->sub_unit_name) }}">
-                                @error('sub_unit_name')
-                            <span class="text-danger">{{ $message }}</span>
-                        @enderror
+                            @error('sub_unit_name')
+                                <span class="text-danger">{{ $message }}</span>
+                            @enderror
                         </div>
                     </div>
 
